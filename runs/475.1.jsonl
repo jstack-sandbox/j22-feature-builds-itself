@@ -3,3 +3,4 @@
 {"from":"build:app","to":"owner","on":"ci_green","head":"3a1a6a645a413ecc754f7ad84ead1582af3af313"}
 {"from":"owner","to":"rebased","on":"base_moved","head":"05177f76da8151e583889607cf49b0c1026e1452"}
 {"from":"rebased","to":"owner","on":"ci_green","head":"05177f76da8151e583889607cf49b0c1026e1452"}
+{"from":"owner","to":"fix","on":"finding","head":"05177f76da8151e583889607cf49b0c1026e1452","check":"jstack/review"}
