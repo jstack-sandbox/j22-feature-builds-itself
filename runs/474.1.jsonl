@@ -1,2 +1,3 @@
 {"from":"ready","to":"tests","on":"unblocked","head":"65d9ddfc68197ebbe637e5f5606a5457012d66c3"}
 {"from":"tests","to":"tests","on":"audit_failed","head":"caaae91540fe1e95e7c26b5ff0872bff6d7bbb8e","check":"jstack/audit"}
+{"from":"tests","to":"build:app","on":"lock_green","head":"c279f7d2ca4f5074536c7e9a2478f002953a2d37"}
