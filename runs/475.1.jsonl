@@ -1,1 +1,2 @@
 {"from":"ready","to":"tests","on":"unblocked","head":"a3417781f9f1a889a1c97daa42eeca8b21597252"}
+{"from":"tests","to":"build:app","on":"lock_green","head":"cfe383b39282d7e19ec0f369010bbc2393912b06"}
