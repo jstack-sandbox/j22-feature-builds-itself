@@ -6,3 +6,4 @@
 {"from":"owner","to":"fix","on":"finding","head":"05177f76da8151e583889607cf49b0c1026e1452","check":"jstack/review"}
 {"from":"fix","to":"owner","on":"ci_green","head":"fd92b6d243eeb9c37568d049d5d48c63ee4d9f10"}
 {"from":"owner","to":"queued","on":"approved","head":"fd92b6d243eeb9c37568d049d5d48c63ee4d9f10"}
+{"from":"queued","to":"merged","on":"merged","head":"fd92b6d243eeb9c37568d049d5d48c63ee4d9f10"}
