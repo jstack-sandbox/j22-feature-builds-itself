@@ -2,3 +2,4 @@
 {"from":"tests","to":"build:app","on":"lock_green","head":"eb874feaf56a78b953bec81c9ff3cd64cd55ae0f"}
 {"from":"build:app","to":"build:app","on":"red_check","head":"4aff5a9663ffe86c71e6d17e3fa6f7b9327f0b0e","check":"01 lint app"}
 {"from":"build:app","to":"build:app","on":"red_check","head":"5052a4d16d0ade251a3ac0b28ed9a1832d1e1208","check":"01 lint app"}
+{"from":"build:app","to":"parked","on":"rounds_spent","head":"c711773090f68896e813a59c9a67e7b40a66b52b","check":"01 lint app"}
