@@ -5,3 +5,4 @@
 {"from":"owner","to":"fix","on":"changes_requested","head":"6fcb312406d280e644a18e7fa0b80cf7cfcf3852"}
 {"from":"fix","to":"owner","on":"ci_green","head":"b819678c40b486eb290d20c36b78d482e6bcefe0"}
 {"from":"owner","to":"queued","on":"approved","head":"b819678c40b486eb290d20c36b78d482e6bcefe0"}
+{"from":"queued","to":"merged","on":"merged","head":"b819678c40b486eb290d20c36b78d482e6bcefe0"}
