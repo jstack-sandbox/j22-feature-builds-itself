@@ -1,2 +1,3 @@
 {"from":"ready","to":"tests","on":"unblocked","head":"f4e880f9803bb2dce40a64ca02222116b61e470e"}
 {"from":"tests","to":"build:app","on":"lock_green","head":"94d083187f702af9f61d503c6f1274bfd29415c6"}
+{"from":"build:app","to":"build:app","on":"red_check","head":"02de52eb9670cf2efd5b2aed25475cf02a5d2514","check":"01 lint app"}
