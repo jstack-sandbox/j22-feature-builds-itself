@@ -2,3 +2,4 @@
 {"from":"tests","to":"tests","on":"audit_failed","head":"c30dd576afd7489743bb507943bed1c2661593df","check":"jstack/audit"}
 {"from":"tests","to":"build:app","on":"lock_green","head":"80b267b056ae1026dbbfe8783f791f32d7530978"}
 {"from":"build:app","to":"owner","on":"ci_green","head":"96d2e3ab4d42ce3610e0ce82d430c4b4cf2d02a5"}
+{"from":"owner","to":"fix","on":"changes_requested","head":"96d2e3ab4d42ce3610e0ce82d430c4b4cf2d02a5"}
