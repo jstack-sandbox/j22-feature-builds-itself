@@ -2,3 +2,4 @@
 {"from":"tests","to":"build:app","on":"lock_green","head":"cfe383b39282d7e19ec0f369010bbc2393912b06"}
 {"from":"build:app","to":"owner","on":"ci_green","head":"3a1a6a645a413ecc754f7ad84ead1582af3af313"}
 {"from":"owner","to":"rebased","on":"base_moved","head":"05177f76da8151e583889607cf49b0c1026e1452"}
+{"from":"rebased","to":"owner","on":"ci_green","head":"05177f76da8151e583889607cf49b0c1026e1452"}
