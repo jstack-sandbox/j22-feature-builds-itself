@@ -4,3 +4,4 @@
 {"from":"owner","to":"rebased","on":"base_moved","head":"17877a778c9ed24f1e754cde813b58e5e224766e"}
 {"from":"rebased","to":"owner","on":"ci_green","head":"17877a778c9ed24f1e754cde813b58e5e224766e"}
 {"from":"owner","to":"fix","on":"finding","head":"17877a778c9ed24f1e754cde813b58e5e224766e","check":"jstack/review"}
+{"from":"fix","to":"owner","on":"ci_green","head":"50fcea4cf195753fa44b6e0fa0961591b9e99339"}
