@@ -1,0 +1,1 @@
+Invoice = {id, customer_id, total, due_on, paid_on optional}

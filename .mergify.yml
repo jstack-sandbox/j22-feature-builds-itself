@@ -1,0 +1,14 @@
+queue_rules:
+  - name: default
+    batch_size: 1
+    merge_method: merge
+    checks_timeout: 30 minutes
+    queue_conditions:
+      - "base=main"
+      - "approved-reviews-by=jstack-sandbox-owner"
+      - "check-success=01 lint app"
+      - "check-success=02 tests app"
+    merge_conditions:
+      - "check-success=01 lint app"
+      - "check-success=02 tests app"
+pull_request_rules: []

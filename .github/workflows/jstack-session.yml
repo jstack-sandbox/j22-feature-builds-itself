@@ -1,0 +1,26 @@
+name: jstack-session
+run-name: ${{ inputs.role }} session for ${{ inputs.issue }} at ${{ inputs.node }}
+on:
+  workflow_dispatch:
+    inputs:
+      role:
+        required: true
+      issue:
+        required: true
+      run:
+        required: false
+      node:
+        required: false
+      check:
+        required: false
+      machine:
+        required: false
+permissions: {}
+jobs:
+  session:
+    name: session
+    runs-on: ubuntu-24.04
+    permissions: {}
+    steps:
+      - name: the stand-in session runs where the step says, not here
+        run: echo "dispatched"

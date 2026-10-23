@@ -1,0 +1,26 @@
+{
+  "jstack": {
+    "version": "1.4.0",
+    "checksum": "sha256:bb818c0df8df29eb64ce735264f7d61a3319ffc13a9ddccfc3a76f8ac8bf31e1"
+  },
+  "owners": {
+    "owner": "jstack-sandbox-owner"
+  },
+  "layers": ["app"],
+  "areas": {
+    "reminders": {
+      "paths": ["src/reminders/**"],
+      "risky": false
+    }
+  },
+  "profiles": {
+    "lang-a": {}
+  },
+  "sessions": {
+    "models": {},
+    "board": {
+      "owner": "jstack-sandbox",
+      "number": 0
+    }
+  }
+}
