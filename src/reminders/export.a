@@ -1,2 +1,2 @@
 export_csv(reminders) = "invoice,on\n" + reminders.map(r => r.invoice + "," + r.on + "\n").join()
-let rows = 0 // unused
+let header = "invoice,on" // unused
