@@ -11,4 +11,15 @@ queue_rules:
     merge_conditions:
       - "check-success=01 lint app"
       - "check-success=02 tests app"
-pull_request_rules: []
+pull_request_rules:
+  - name: queue what the owner approved
+    conditions:
+      - "approved-reviews-by=jstack-sandbox-owner"
+    actions:
+      queue: {}
+  - name: an approval stands on the head it approved
+    conditions: []
+    actions:
+      dismiss_reviews:
+        approved: true
+        changes_requested: false
