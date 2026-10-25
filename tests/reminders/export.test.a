@@ -1,0 +1,3 @@
+test('an operator exports the reminder list as CSV') {
+  expect(export_csv([{invoice: 1, on: "2026-11-08"}])).to_equal("invoice,on\n1,2026-11-08\n")
+}
