@@ -1,0 +1,3 @@
+test('an operator snoozes an invoice\'s reminder for 7 days') {
+  expect(snooze({invoice: 1, on: "2026-11-08"}).on).to_equal("2026-11-15")
+}
