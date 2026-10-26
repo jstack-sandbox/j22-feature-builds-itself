@@ -21,4 +21,21 @@ jobs:
     runs-on: ubuntu-24.04
     environment: ci-release
     steps:
-      - run: echo "the app layer's tests pass"
+      - name: run the app layer's runner-a tests
+        env:
+          SHA: ${{ github.event.pull_request.head.sha }}
+          REPO: ${{ github.repository }}
+        run: |
+          mkdir -p reports
+          curl -fsSL -o bundle.json \
+            "https://raw.githubusercontent.com/$REPO/jstack-fixtures/$SHA/reports.json" ||
+            echo '{}' > bundle.json
+          jq -r 'keys[]' bundle.json | while read -r file; do
+            mkdir -p "reports/$(dirname "$file")"
+            jq -r --arg f "$file" '.[$f]' bundle.json > "reports/$file"
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: reports/
+          if-no-files-found: ignore

@@ -1,7 +1,7 @@
 {
   "jstack": {
     "version": "1.4.0",
-    "checksum": "sha256:bb818c0df8df29eb64ce735264f7d61a3319ffc13a9ddccfc3a76f8ac8bf31e1"
+    "checksum": "sha256:34d7f5577e9fa6e0d67a89e560211577eb5bcb72be8098d8114478110bf6418c"
   },
   "owners": {
     "owner": "jstack-sandbox-owner"
@@ -14,7 +14,8 @@
     }
   },
   "profiles": {
-    "lang-a": {}
+    "lang-a": {},
+    "runner-a": {}
   },
   "sessions": {
     "models": {},
