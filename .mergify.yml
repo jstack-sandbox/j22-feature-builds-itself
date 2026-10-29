@@ -12,6 +12,7 @@ queue_rules:
     merge_conditions:
       - "check-success=01 lint app"
       - "check-success=02 tests app"
+      - "check-success=setup/merge"
 pull_request_rules:
   - name: queue what the owner approved
     conditions:
