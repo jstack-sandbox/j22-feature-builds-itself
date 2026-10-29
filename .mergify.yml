@@ -8,6 +8,7 @@ queue_rules:
       - "approved-reviews-by=jstack-sandbox-owner"
       - "check-success=01 lint app"
       - "check-success=02 tests app"
+      - "check-success=setup/queue"
     merge_conditions:
       - "check-success=01 lint app"
       - "check-success=02 tests app"
