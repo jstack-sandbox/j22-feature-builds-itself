@@ -1,0 +1,1 @@
+snooze(reminder) = {invoice: reminder.invoice, on: reminder.on + 7}
