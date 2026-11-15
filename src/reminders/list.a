@@ -1,0 +1,1 @@
+next_reminders(invoices) = invoices.unpaid().map(i => {invoice: i.id, on: i.due_on + 7})
