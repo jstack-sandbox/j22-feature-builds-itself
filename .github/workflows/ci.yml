@@ -6,7 +6,7 @@ permissions:
 jobs:
   lint-app:
     name: 01 lint app
-    runs-on: ubuntu-24.04
+    runs-on: ${{ vars.CI_RUNS_ON }}
     environment: ci-release
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +18,7 @@ jobs:
           awk '/\/\/ unused$/ { print FILENAME ":" FNR ": unused variable " $2; bad = 1 } END { exit bad }' src/reminders/*.a
   tests-app:
     name: 02 tests app
-    runs-on: ubuntu-24.04
+    runs-on: ${{ vars.CI_RUNS_ON }}
     environment: ci-release
     steps:
       - name: run the app layer's runner-a tests

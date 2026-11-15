@@ -19,7 +19,7 @@ permissions: {}
 jobs:
   session:
     name: session
-    runs-on: ubuntu-24.04
+    runs-on: ${{ vars.CI_RUNS_ON }}
     permissions: {}
     steps:
       - name: the stand-in session runs where the step says, not here
